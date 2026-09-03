@@ -1,9 +1,7 @@
 # Edison Jiang
 
 <p align="center">
-  <strong>
-    🤖 Embodied Intelligence · VLA · Robot Learning · Sim2Real
-  </strong>
+  <strong>🤖 Embodied Intelligence · VLA · Robot Learning · Sim2Real</strong>
 </p>
 
 <p align="center">
@@ -22,9 +20,11 @@
 
 ---
 
-## 🧠 Embodied Intelligence
+## 🧠 About
 
-I work at the boundary between **learning-based policies and robot software systems**, with a focus on bringing multimodal models into real-world robotic experiments.
+I'm an **Intelligent Manufacturing undergraduate** working on embodied intelligence and robotic systems.
+
+My interests sit at the boundary between **learning-based policies and real robot software**, with a focus on bringing multimodal models into physical systems.
 
 ```text
 Vision + Language

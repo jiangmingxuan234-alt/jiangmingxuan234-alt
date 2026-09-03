@@ -1,0 +1,25 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/github-snake.svg?palette=github-dark&color_snake=%2334D399&color_dots=%230B1220,%23172A3D,%23265A4A,%2334D399
+            assets/github-snake-dark.svg?palette=github-dark&color_snake=%23F59E0B&color_dots=%230B1220,%23313B4B,%23705A24,%23F59E0B
+      - uses: EndBug/add-and-commit@v9
+        with:
+          message: "chore: update contribution snake"
+          add: "assets/github-snake.svg assets/github-snake-dark.svg"

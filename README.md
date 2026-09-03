@@ -51,6 +51,16 @@ The loop starts with multimodal observation, turns models into robot actions, an
 
 This profile is an evolving lab notebook: projects and experiments are linked above as the work develops.
 
+## Contribution trail
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg" />
+    <img src="assets/github-snake.svg" alt="Animated contribution graph snake" />
+  </picture>
+</p>
+
 ## Contact
 
 The best place to follow the work is the public project repositories on [GitHub](https://github.com/jiangmingxuan234-alt).

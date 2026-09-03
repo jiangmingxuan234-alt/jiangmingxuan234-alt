@@ -1,108 +1,58 @@
-# Hi there, I'm Mingxuan Jiang 👋
+<p align="center">
+  <img src="assets/embodied-hero.svg" alt="Embodied intelligence research profile" />
+</p>
 
-### 🤖 Robotics · VLA · Robot Learning · Sim2Real
+# Edison Jiang
 
-I'm an undergraduate student majoring in **Intelligent Manufacturing**,  
-currently focusing on **robot learning, Vision-Language-Action (VLA), ROS2, and Sim2Real**.
+Embodied intelligence researcher building robot systems that connect perception, language, planning, and whole-body action. I work at the boundary between learning-based policies and robot software for real-world experiments.
 
----
+## Research loop
 
-## 🔭 Research Interests
+<p align="center">
+  <img src="assets/research-loop.svg" alt="Research loop from vision and language through robot action to simulation-to-real feedback" />
+</p>
 
-- 🤖 Vision-Language-Action (VLA)
-- 🦾 Robot Learning & Manipulation
-- 🌎 Sim2Real / Sim2Sim
-- 🧠 Multimodal Foundation Models
-- 🎯 Closed-loop Robot Control
-- 👁️ Robot Perception
-- 🚁 UAV & Autonomous Systems
+The loop starts with multimodal observation, turns models into robot actions, and uses simulation-to-real feedback to guide the next experiment.
 
----
+`VISION + LANGUAGE` → `VLA + WORLD MODEL` → `SONIC × BXI` → `SIM2REAL`
 
-## 🛠️ Tech Stack
+## Currently building
 
-### Robotics
+- I am integrating Elf3 experiments with BXI and SONIC for embodied manipulation research.
+- I am running garment-folding experiments that connect perception, control, and physical interaction.
+- I am iterating on robot policies and evaluation across real hardware and simulation, documenting experiments so results can be revisited.
 
-![ROS2](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white)
-![ROS](https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white)
-![Isaac Sim](https://img.shields.io/badge/Isaac%20Sim-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![Isaac Lab](https://img.shields.io/badge/Isaac%20Lab-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![PX4](https://img.shields.io/badge/PX4-333333?style=for-the-badge)
+## Selected projects
 
-### Programming
+<table>
+  <tr>
+    <td><a href="https://github.com/jiangmingxuan234-alt/bxi_controller_ros2"><strong>BXI Controller ROS 2</strong></a><br />ROS 2 control software for the BXI platform.</td>
+    <td><a href="https://github.com/jiangmingxuan234-alt/com.bxi.sonic"><strong>SONIC</strong></a><br />A BXI-related robotics software project.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/jiangmingxuan234-alt/Embodied-AI-Franka"><strong>Embodied-AI-Franka</strong></a><br />Embodied AI experiments with a Franka robot.</td>
+    <td><a href="https://github.com/jiangmingxuan234-alt/uav-ugv-cooperative-system-sim-to-real"><strong>UAV–UGV Cooperative System</strong></a><br />Simulation-to-real work for cooperative aerial and ground robots.</td>
+  </tr>
+</table>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white)
+## Research interests
 
-### AI / Machine Learning
+- **VLA:** vision-language-action models for grounded robot behavior.
+- **World models:** predictive representations for planning and embodied reasoning.
+- **Robot learning:** data-efficient policies that transfer to physical systems.
+- **Whole-body control:** coordinated motion and contact-aware manipulation.
+- **Sim2Real:** simulation, evaluation, and feedback loops that support real-robot deployment.
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+## Tools & systems
 
-### Tools
+`Python` · `C++` · `ROS 2` · `Linux` · `PyTorch` · `Simulation`
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+## Notes
 
----
+This profile is an evolving lab notebook: projects and experiments are linked above as the work develops.
 
-## 🚀 Featured Projects
+## Contact
 
-### 🤖 VLA Robot System
+The best place to follow the work is the public project repositories on [GitHub](https://github.com/jiangmingxuan234-alt).
 
-A complete Vision-Language-Action robotic system integrating:
-
-- Vision / Language / Action
-- VLA Policy
-- Closed-loop control
-- Task execution
-- Robot perception
-- Simulation evaluation
-- Sim2Real deployment
-
-**Tech:** `Python` `C++` `ROS2` `PyTorch` `Isaac Sim`
-
----
-
-### 🦾 Dexterous Robot / ARM Control
-
-Robot control and hardware integration projects focusing on:
-
-- Robot arm control
-- Dexterous manipulation
-- ROS2 communication
-- Hardware interfaces
-- UDP / CAN communication
-- Safety & control services
-
-**Tech:** `ROS2` `C++` `Python` `CAN` `UDP`
-
----
-
-### 🌎 Sim2Real Evaluation
-
-A simulation-to-real evaluation pipeline for robot learning models.
-
-```text
-Task Instruction
-       ↓
-      VLA
-       ↓
-     Action
-       ↓
-Simulation Robot
-       ↓
-Environment State
-       ↓
-Observation
-       ↓
-      VLA
-       ↓
-      ...
-       ↓
-Task Success / Failure
+<sub>Embodied intelligence in the loop — observe, reason, act, learn.</sub>
